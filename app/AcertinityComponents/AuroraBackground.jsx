@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import { BackgroundGradient } from "@/components/ui/background-gradient";
+
 import { BackgroundGradientDemo } from "./BackgroundGradient";
 
 export function AuroraBackgroundDemo() {
@@ -17,7 +17,7 @@ export function AuroraBackgroundDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="relative flex items-center justify-center gap-20 h-full p-4"
+        className="relative flex items-center justify-center gap-40 h-full p-4"
       >
         <div className="flex flex-col justify-center gap-5 ">
           <div className="text-3xl md:text-8xl font-bold dark:text-white ">
