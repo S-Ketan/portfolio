@@ -30,9 +30,9 @@ export function AuroraBackgroundDemo() {
             See More...
           </button>
         </div>
-        <div>
+       { <div>
           <BackgroundGradientDemo />
-        </div>
+        </div>}
       </motion.div>
     </AuroraBackground>
   );

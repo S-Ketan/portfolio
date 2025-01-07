@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div>
         <AuroraBackgroundDemo />
-        <InfiniteMovingCardsDemo />
+       { <InfiniteMovingCardsDemo />}
     </div>
   )
 }

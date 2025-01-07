@@ -71,13 +71,13 @@ return (
   <li
     className="w-[350px]  max-w-full relative flex-shrink-0 px-8 py-6 md:w-[450px]"
     style={{
-      background: "linear-gradient(180deg, #29292f, #18181b, #24324b)",
+      background: "linear-gradient(180deg, #000000, #000000)",
       borderRadius: "9999px", // equivalent to rounded-full
       position: "relative",
     }}
     key={item.name}>
     {/* Gradient Border */}
-    <div
+    {/* <div
       aria-hidden="true"
       className="absolute -z-10 inset-0"
       style={{
@@ -91,14 +91,14 @@ return (
           background: "linear-gradient(180deg, #29292f, #18181b, #24324b)",
           borderRadius: "inherit", // Match border radius
         }}></div>
-    </div>
+    </div> */}
     {/* Content */}
     <blockquote>
       <span className="relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
         {item.quote}
       </span>
       <div className="relative z-20 text-center flex flex-row items-center">
-        <span className="w-full text-3xl text-center leading-[1.6] text-gray-400 font-normal">
+        <span className="w-full text-4xl text-center leading-[1.6] text-gray-400 font-normal">
           {item.name}
         </span>
       </div>
