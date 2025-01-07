@@ -12,37 +12,37 @@ export const projects = [
   {
     title: "Next.js",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "Next.js is a React-based framework for building fast, scalable, and SEO-friendly web applications with features like server-side rendering (SSR), static site generation (SSG), API routes, and built-in routing, along with performance optimizations like image optimization and incremental static regeneration.",
     
   },
   {
     title: "Tailwind CSS",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "Tailwind CSS is a utility-first CSS framework that provides pre-defined classes like flex, p-4, and text-center, enabling rapid UI development directly in HTML without writing custom CSS. It is highly customizable, supports responsive design with breakpoints, and optimizes styles for production, making it a powerful tool for building modern, responsive interfaces.",
     
   },
   {
     title: "React.js",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "React.js is a JavaScript library for building dynamic and interactive user interfaces using reusable components, a virtual DOM for efficient rendering, and a declarative programming approach to make development fast and intuitive.",
     
   },
   {
     title: "Vite.js",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+      "Vite.js is a fast and modern build tool for web development that provides instant server startup, lightning-fast hot module replacement (HMR), and optimized production builds, designed to improve the development experience for frameworks like React, Vue, and others.",
     
   },
   {
     title: "JavaScript",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "JavaScript is a versatile, lightweight programming language used to create dynamic and interactive web content, enabling features like form validation, animations, and APIs, and it runs on both the client-side and server-side for building modern web applications.",
   
   },
   {
     title: "TypeScript",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+      "TypeScript is a strongly typed superset of JavaScript that adds static typing, enhancing code readability, catching errors during development, and providing better tooling support for building scalable and maintainable applications.",
    
   },
 ];

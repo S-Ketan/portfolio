@@ -5,7 +5,9 @@ import { WobbleCard } from "@/components/ui/wobble-card";
 
 export function WobbleCardDemo() {
   return (
-    (<div
+    (<>
+      <p className="text-center text-5xl my-10">My Projects</p>
+    <div
       className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
       <WobbleCard
         containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
@@ -56,6 +58,7 @@ export function WobbleCardDemo() {
           alt="linear demo image"
           className="absolute -right-10 md:-right-[40%] lg:-right-[20%] -bottom-10 object-contain rounded-2xl" />
       </WobbleCard>
-    </div>)
+    </div>
+    </>)
   );
 }
