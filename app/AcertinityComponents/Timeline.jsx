@@ -9,7 +9,7 @@ export function TimelineDemo() {
       title: "Janurary 2025",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
            Started the year by making an Event Management website for a client.
           </p>
           
@@ -52,7 +52,7 @@ export function TimelineDemo() {
       title: "December 2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
            Started learning and experimenting with Next.Js and Next Auth.
           </p>
           
@@ -88,7 +88,7 @@ export function TimelineDemo() {
       title: "November 2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
            Made a frontend design for a logistics company using React and Vite Js
           </p>
           
@@ -130,7 +130,7 @@ export function TimelineDemo() {
       title: "October 2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
            Started Learning react and API integration and made a website using newsAPI along with a text manipulation site.
           </p>
           
@@ -172,7 +172,7 @@ export function TimelineDemo() {
       title: "September 2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
            Learned javascript and started making small projects and ultimately a media player
           </p>
           
@@ -214,10 +214,10 @@ export function TimelineDemo() {
       title: "August 2024 onwards",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
            Learned about the existence of Tailwind CSS framework which made my life so much easier
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
            Started implementing it on each and every project and made landing page clones of website like Netflix and Ultraedit
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -258,10 +258,10 @@ export function TimelineDemo() {
       title: "May - June 2023",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Finally found a client and developed a fullstack website for them
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             My main focus was still on the frontend while the backend was
             handled by a by other group members
           </p>
@@ -303,11 +303,11 @@ export function TimelineDemo() {
       title: "March-April 2023",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Made the first ever webpage with a group of friends worthy of being
             called a project
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             At this point the webpage we created only had a front-end using raw
             HTML and CSS with a bit of JavaScript
           </p>
@@ -343,10 +343,10 @@ export function TimelineDemo() {
       title: "Feb 2023",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Took interest in web development and learned HTML, CSS fundamentals
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Made small webpages for practice and learned about responsive design
           </p>
           <div className="grid grid-cols-2 gap-4">

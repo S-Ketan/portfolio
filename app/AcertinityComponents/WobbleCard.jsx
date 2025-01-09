@@ -8,6 +8,8 @@ import Project3 from "../Projects/Project3";
 import Project4 from "../Projects/Project4";
 import Project5 from "../Projects/Project5";
 import Project6 from "../Projects/Project6";
+import Project7 from "../Projects/Project7";
+import Project8 from "../Projects/Project8";
 
 export function WobbleCardDemo() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -109,7 +111,7 @@ export function WobbleCardDemo() {
         <WobbleCard
           containerClassName="col-span-1 lg:col-span-2 h-full bg-purple-800 min-h-[500px] lg:min-h-[300px]"
           className=""
-          onClick={()=>{ setProjectSelector(1); toggleSidebar();}}
+          onClick={()=>{ setProjectSelector(7); toggleSidebar();}}
            
         >
           <div className="max-w-xs">
@@ -128,7 +130,7 @@ export function WobbleCardDemo() {
             className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
           />
         </WobbleCard>
-        <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-yellow-700" onClick={()=>{setProjectSelector(2); toggleSidebar()}}>
+        <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-yellow-700" onClick={()=>{setProjectSelector(8); toggleSidebar()}}>
           <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Music Player
           </h2>
@@ -162,7 +164,8 @@ export function WobbleCardDemo() {
           projectSelector === 4 ? <Project4 /> : 
           projectSelector === 5 ? <Project5 /> :
           projectSelector === 6 ? <Project6 /> :
-          projectSelector === 7 ? <Project7 /> : null}
+          projectSelector === 7 ? <Project7 /> : 
+          projectSelector === 8 ? <Project8 /> : null}
         </div>
         {/* Click outside sidebar to close */}
       </div>
