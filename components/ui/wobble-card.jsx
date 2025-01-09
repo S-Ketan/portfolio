@@ -6,7 +6,8 @@ import { cn } from "@/lib/utils";
 export const WobbleCard = ({
   children,
   containerClassName,
-  className
+  className,
+  onClick
 }) => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
@@ -26,6 +27,7 @@ export const WobbleCard = ({
         setIsHovering(false);
         setMousePosition({ x: 0, y: 0 });
       }}
+      onClick={onClick}
       style={{
         transform: isHovering
           ? `translate3d(${mousePosition.x}px, ${mousePosition.y}px, 0) scale3d(1, 1, 1)`
