@@ -26,18 +26,18 @@ const testimonials = [
   },
   {
    
-    name: "SEO",
+    name: "SE OPTIMIZATION",
     
   },
   {
   
-    name: "BACKEND",
+    name: "API INTEGRATION",
     
   },
   {
     
    
-    name: "FULLSTACK",
+    name: "RESPONSIVE DESIGN",
     
   },
 ];

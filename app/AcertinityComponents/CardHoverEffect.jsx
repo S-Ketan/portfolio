@@ -28,9 +28,9 @@ export const projects = [
     
   },
   {
-    title: "Vite.js",
+    title: "Bootstrap",
     description:
-      "Vite.js is a fast and modern build tool for web development that provides instant server startup, lightning-fast hot module replacement (HMR), and optimized production builds, designed to improve the development experience for frameworks like React, Vue, and others.",
+      "Bootstrap is a popular front-end framework that provides ready-to-use HTML, CSS, and JavaScript components for building responsive and mobile-first web designs, featuring utilities like a grid system, buttons, modals, and navigation bars.",
     
   },
   {
