@@ -19,7 +19,7 @@ export function WobbleCardDemo() {
   };
   return (
     <>
-      <p className="text-center text-5xl my-10">My Projects</p>
+      <p className="text-center text-5xl my-10 font-raleway">My Projects</p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
         {/* Exotic Celebrations */}
         <WobbleCard

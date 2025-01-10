@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Banner />
       <CardHoverEffectDemo />
-      <MyTools />
+     {/*  <MyTools /> */}
       <TimelineDemo />
       <WobbleCardDemo />
       <Footer />

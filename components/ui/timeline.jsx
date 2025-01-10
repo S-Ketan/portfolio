@@ -30,7 +30,7 @@ export const Timeline = ({ data }) => {
     >
       <div className="flex justify-between items-center w-[85%]  m-auto ">
         <div className="max-w-7xl  py-20 px-4 md:px-8 lg:px-10 ">
-          <h2 className="text-lg md:text-4xl mb-4 text-white max-w-4xl">
+          <h2 className="text-lg md:text-4xl mb-4 text-white max-w-4xl font-raleway">
             My Journey as a Frontend Developer
           </h2>
           <p className="text-neutral-300 text-sm md:text-base max-w-sm">
