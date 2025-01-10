@@ -95,7 +95,7 @@ export function WobbleCardDemo() {
             </p>
           </div>
           <Image
-            src="/assets/DeliveryExpress/LandingPage.png"
+            src="/assets/DeliveryExpress/landingPage.png"
             width={500}
             height={500}
             alt="linear demo image"

@@ -12,7 +12,7 @@ const tabs = [
       <div className="w-full overflow-hidden relative sm:h-full  rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br to-gray-700 from-black">
         <p>Landing Page</p>
         <Image
-          src="/assets/DeliveryExpress/LandingPage.png"
+          src="/assets/DeliveryExpress/landingPage.png"
           alt="dummy image"
           width="900"
           height="900"
