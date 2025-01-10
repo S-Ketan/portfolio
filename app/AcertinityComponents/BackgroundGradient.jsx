@@ -19,7 +19,7 @@ export function BackgroundGradientDemo() {
         </p>
 
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          I’m a front-end developer and Bachelor of Science in Informatik (International) student at Hochschule Hof. With knowledge in Frontend technologies like NextJs, React, JavaScript, and API integration.
+          I’m a front-end developer and Bachelor of Science in Informatik student at Hochschule Hof. With knowledge in Frontend technologies like NextJs, React, JavaScript, and API integration.
         </p>
         {/* <button
           className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
