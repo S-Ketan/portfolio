@@ -26,11 +26,12 @@ export function AuroraBackgroundDemo() {
           <div className="font-extralight text-base md:text-4xl text-neutral-200 py-4">
             Front-end Developer
           </div>
+          <a href="/assets/Ketan-CV.pdf" download={"Ketan's CV"}>
           <button className="bg-white rounded-full w-fit :text-black px-4 py-2">
-            See More...
-          </button>
+            Download CV
+          </button></a>
         </div>
-       { <div>
+       { <div className="sm:block hidden">
           <BackgroundGradientDemo />
         </div>}
       </motion.div>

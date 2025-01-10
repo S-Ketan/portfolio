@@ -57,21 +57,21 @@ return (
     <div
         ref={containerRef}
         className={cn(
-            "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+            "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] ",
             className
         )}>
         <ul
             ref={scrollerRef}
             className={cn(
-                "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
+                "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap justify-center items-center",
                 start && "animate-scroll",
                 pauseOnHover && "hover:[animation-play-state:paused]"
             )}>
             {items.map((item, idx) => (
   <li
-    className="w-[350px]  max-w-full relative flex-shrink-0 px-8 py-6 md:w-[450px]"
+    className="w-[350px]  max-w-full relative flex-shrink-0 px-8 py-6 md:w-[450px]  "
     style={{
-      background: "linear-gradient(180deg, #000000, #000000)",
+      // background: "linear-gradient(180deg, #000000, #000000)",
       borderRadius: "9999px", // equivalent to rounded-full
       position: "relative",
     }}
@@ -97,8 +97,8 @@ return (
       <span className="relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
         {item.quote}
       </span>
-      <div className="relative z-20 text-center flex flex-row items-center">
-        <span className="w-full text-4xl text-center leading-[1.6] text-gray-400 font-normal">
+      <div className="relative z-20 text-center flex flex-row items-center  ">
+        <span className="w-full sm:text-4xl text-lg text-center leading-[1.6] text-gray-400 font-normal">
           {item.name}
         </span>
       </div>
