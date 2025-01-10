@@ -48,7 +48,7 @@ export function Footer() {
             ))}
           </div>
           <div className="text-sm text-gray-400 text-center mt-5">
-            <p>© {new Date().getFullYear()} Ketan Sharma. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Codethics. All rights reserved.</p>
           </div>
       </div>
       <BackgroundBeams className="z-0" />
